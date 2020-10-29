@@ -1,0 +1,7 @@
+.SidebarGroup{
+    width: 25%;
+    background-color: teal;
+    position: fixed;
+    height: 700px;
+    overflow: auto;
+}

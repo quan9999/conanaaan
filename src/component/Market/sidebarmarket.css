@@ -1,0 +1,7 @@
+.sidebarmarket{
+    width: 25%;
+    background-color: steelblue;
+    height: 700px;
+    position: fixed;
+    overflow: auto;
+}

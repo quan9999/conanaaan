@@ -1,0 +1,16 @@
+
+.mes{
+    height: 660px;
+    width: 360px;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 10px;
+
+}
+
+.topM{
+    display: flex;
+    flex: space-between;
+    justify-content: center;
+    align-items: center;
+}

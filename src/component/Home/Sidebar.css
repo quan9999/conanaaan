@@ -1,0 +1,55 @@
+.sidebar {
+    background-color: rgb(241, 243, 248);
+    width: 350px;
+    height: 700px;
+    overflow-y: auto;
+    position: fixed;
+}
+.sidebar::-webkit-scrollbar{
+    width: 10px;
+    background-color: #f5f5f5;
+}
+
+.sidebar::-webkit-scrollbar-thumb{
+    background-color: #a09f9f;
+    border-radius: 20px;
+}
+.more {
+    margin: 5px 10px;
+    border-bottom:solid 0.5px rgb(37, 37, 37);
+}
+.sidebar_option{
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+}
+.sidebar_option > .MuiSvgIcon-root{
+    background: -webkit-linear-gradient(top, #e72c83 0%,#42c669 100%); 
+    background: linear-gradient(to bottom, #e72c83 0%,#a742c6 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+   -webkit-text-fill-color:transparent;
+}
+.sidebar_option > h4{
+    margin-left: 0.5rem;
+}
+.sidebar_option:hover {
+    background-color: rgb(224, 224, 224);
+    border-radius: 10px;
+}
+.your_shortcut {
+    margin: 5px 10px;
+}
+.shortcut{
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+}
+.shortcut > h4{
+    margin-left: 0.5rem;
+}
+.shortcut:hover {
+    background-color: rgb(224, 224, 224);
+    border-radius: 10px;
+}

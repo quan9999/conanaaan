@@ -1,0 +1,46 @@
+.SidebarVideo{
+    background-color: white;
+    width: 350px;
+    height: 700px;
+    position: fixed;
+    z-index: 10;
+    overflow: auto;
+}
+h2{
+    margin-left: 20px;
+}
+.SearchVideo{
+    background-color: wheat;
+    border-radius: 999px;
+    height: 40px;
+    margin-left: 20px;
+
+}
+.SearchVideo > input {
+    border: none;
+    outline-width: 0px;
+    background-color: wheat;
+    margin-left: 25px;
+}
+.top{
+    margin-top: 5px;
+    margin-left: 20px;
+    border-bottom: solid 2px black;
+}
+.ListSidebar{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.under{
+    margin-top: 5px;
+    margin-left: 20px;
+    border-bottom: solid 2px black;
+}
+.YourListItem{
+    display: flex;
+    margin-left: 20px;
+}
+h4 > .manage{
+    color: blue;
+}

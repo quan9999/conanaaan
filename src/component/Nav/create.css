@@ -1,0 +1,37 @@
+.sdfsd{
+  position: absolute;
+  top: 50px;
+  background-color: khaki;
+  width: 350px;
+  right: 0px;
+  border-radius: 10px;
+}
+.navbar_option_2{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 0 7px;
+    margin: 0 3px;
+    background-color:  #cdd3da;
+    border-radius: 999px;
+    height: 40px;
+    width: 25px;
+  }
+  .navbar_option_2:hover{
+    background-color: #e0e4e7;
+  }
+  .active2{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 0 7px;
+    margin: 0 3px;
+    background-color:  #b9c7d8;
+    border-radius: 999px;
+    height: 40px;
+    width: 25px;
+  }
+  .active2 > .MuiSvgIcon-root{
+    color: #5899f3;
+  
+  }

@@ -1,0 +1,26 @@
+.market{
+    display: flex;
+    width: 100%;
+}
+.sdfaww{
+    width: 25%;
+}
+.containerMarket{
+    width: 75%;
+}
+.grid-container{
+    display: grid;
+    grid-column-gap: 15px;
+    grid-template-columns: auto auto auto auto;
+    background-color: #2196F3;
+    padding: 10px 30px;
+}
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    height: 200px;
+    margin: 20px 0px;
+  }

@@ -1,0 +1,137 @@
+body{
+  margin: 0rem;
+  padding: 0rem;
+}
+.navbar {
+  padding: 0px 20px;
+  margin-bottom: 0rem;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  background-color: white;
+  z-index: 100;
+  top: 0px;
+  box-shadow: 0px 5px -9px rgba(0, 0, 0, 0.75);
+}
+
+.NavbarLeft{
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 3px 0px;
+}
+.imgLogo {
+  height: 55px;
+  width: 55px;
+}
+
+.navbar_middle {
+  display: flex;
+  margin-left: 12rem;
+}
+.navbar_option > .MuiSvgIcon-root{
+  color: rgb(190, 188, 188);
+  font-size: 37px;
+}
+.active > .MuiSvgIcon-root{
+  color: #5899f3;
+  font-size: 37px;
+}
+.navbar_option{
+  display: flex;
+  align-items: center;
+  padding: 8px 40px;
+  cursor: pointer;
+  margin: 0px 5px;
+  
+}
+.navbar_option:hover:not(.active){
+  display: flex;
+  align-items: center;
+  padding: 8px 40px;
+  cursor: pointer;
+  margin: 5px 5px;
+  border-radius: 10px;
+  background-color: rgba(235, 235, 235, 0.959);
+  
+}
+
+.active{
+  display: flex;
+  align-items: center;
+  padding: 8px 40px;
+  cursor: pointer;
+  margin: 2px 8px;
+  border-bottom: solid 3px  #5899f3;
+}
+.navbar_right{
+  display: flex;
+  align-items: center;
+}
+.navbar_avatar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  color: black;
+  text-decoration: none;
+}
+.avatar_active{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  color:#5899f3;
+  text-decoration: none;
+  background-color: #e2e9f3;
+  border-radius: 20px;
+  border-bottom: none;
+}
+.navbar_avatar > h4{
+  padding-left: 0.5rem;
+}
+.navbar_avatar > .MuiSvgIcon-root {
+  font-size: 35px;
+}
+.navbar_avatar:hover{
+  background-color: #eff2f5;
+  border-radius: 20px;
+  border-bottom: none;
+  height: 40px;
+}
+.navbar_more{
+  display: flex;
+  margin-left: 10px;
+  align-items: center;
+  position: relative;
+}
+
+
+.active2{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 0 7px;
+  margin: 0 3px;
+  background-color:  #b9c7d8;
+  border-radius: 999px;
+  height: 40px;
+  width: 25px;
+}
+.active2 > .MuiSvgIcon-root{
+  color: #5899f3;
+
+}
+.MessengeS{
+  display: flex;
+  max-height: 600px;
+  position: absolute;
+  justify-content: flex-end;
+  align-items: flex-end;
+  right: 100px;
+  top: 428px;
+  bottom: 0%;
+  height: 480px;
+}
+
+

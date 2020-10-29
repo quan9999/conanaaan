@@ -1,0 +1,207 @@
+.sfsfgsg{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    width: 320px;
+    height: 60px;
+    padding: 0px 20px;
+    left: 0px;
+}
+.sfsfgsgActive{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 320px;
+    height: 60px;
+    padding: 3px 20px;
+    left: 0px;
+    top: 0px;
+    box-shadow: 0 0px 0px 0px rgb(197, 196, 196);
+    z-index: 150;
+    background-color: white;
+}
+.SearchBar{
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 0px 0px 0px rgb(197, 196, 196);
+    width: 360px;
+    padding: 10px 0px;
+    margin-left: 0.5rem;
+    top: 60px; 
+    left: -10px;
+    
+}
+.navbar_input{
+    display: flex;
+    align-items: center;
+    background-color: #eff2f5;
+    border-radius: 999px;
+    height: 43px;
+    width: 260px;
+    cursor: pointer;
+    margin-left: 2px;
+    z-index: 200;
+ 
+
+}
+.navbar_input1{
+    display: flex;
+    align-items: center;
+    background-color: #eff2f5;
+    border-radius: 999px;
+    height: 43px;
+    width: 270px;
+    cursor: pointer;
+    z-index: 150;
+    margin-left: 2px;
+    position: sticky;
+    transform: translateX(-40px);
+    padding: 0px 2.5px;
+}
+
+.navbar_input1 > input {
+    border: none;
+    background-color: #eff2f5;
+    outline-width: 0px;
+    margin-left: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    color: rgb(44, 43, 43);
+    width: 250px;
+ 
+}
+
+.navbar_input2{
+    display: flex;
+    align-items: center;
+    background-color: #eff2f5;
+    border-radius: 999px;
+    height: 43px;
+    width: 300px;
+    cursor: pointer;
+
+}
+
+.navbar_input > input {
+    border: none;
+    background-color: #eff2f5;
+    outline-width: 0px;
+    font-size: 16px;
+    cursor: pointer;
+    color: rgb(44, 43, 43);
+}
+
+.navbar__input1{
+    display: flex;
+    align-items: center;
+    background-color: #eff2f5;
+    border-radius: 999px;
+    height: 40px;
+    width: 280px;
+    cursor: pointer;
+    padding: 2px 0px;
+ 
+
+}
+.navbar__input1 > input {
+    border: none;
+    background-color: #eff2f5;
+    outline-width: 0px;
+    margin-left: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    color: rgb(12, 12, 12);
+  
+}
+.navbar_input > .MuiSvgIcon-root {
+    margin-left: 5px;
+    margin-right: 2px;
+    color: rgb(212, 212, 212);
+}
+.Iconback{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+.IconbackActive{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin-left: 0px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.IconbackActive:hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: grey;
+    cursor: pointer;
+   
+}
+.top_search {
+    display: flex;
+    padding: 0px 0px;
+}
+
+.center_search{
+    display: flex;
+    align-items: center;
+    margin-left: 20px ;
+    margin-top: 20px;
+}
+.fix {
+    width: 60px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    color: blue;
+    justify-content: center;
+    margin-left: 120px;
+}
+.fix:hover{
+    border-radius: 10px;
+    background-color: cornsilk;
+}
+.bottom_search{
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+    font-size: 16px;
+}
+.bottom_search > h4{
+    margin-left: 15px;
+    margin-right: 170px;
+}
+.bottom_search > .MuiSvgIcon-root:hover{
+    width: 23px;
+    height: 23px;
+    background-color: honeydew;
+    border-radius: 999px;
+    padding: 1px 1px 1px 1px;
+}
+.imgSearch{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: darkcyan;
+}
+.bottom_search:hover{
+    background-color: cornsilk;
+    border-radius: 10px;
+}

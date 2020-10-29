@@ -1,0 +1,14 @@
+.Group{
+    width: 100%;
+    display: flex;
+}
+.sdfaww{
+    width: 25%;
+}
+.containerGroup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+    background-color: violet;
+}
